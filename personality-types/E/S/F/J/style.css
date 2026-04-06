@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #4CAF50; /* Color for section headings */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px; /* Space between sections */
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+ul {
+    list-style-type: disc; /* Bullet points for lists */
+    margin-left: 20px; /* Indent for list items */
+}
+
+strong {
+    color: #4CAF50; /* Color for strong text */
+}
+
+em {
+    color: #555; /* Color for emphasized text */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    background-color: #0b300b; /* Using the defined color */
+    padding: 0px 20px;
+    padding-left: 0px;
+}
+
+.logo img {
+    width: 30%;
+    height: auto; /* Maintain aspect ratio */
+    float: left;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white; /* Changed to white for better contrast */
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    text-decoration: underline; /* Added hover effect */
+}

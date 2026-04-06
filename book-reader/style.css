@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: block; /* Change to block layout to stack elements vertically */
+    padding: 20px;
+    width: 100%;
+    clear: both; /* Ensure no overlapping with floated elements */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#instructions {
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px; /* Add spacing below the instructions */
+}
+
+#library-container {
+    flex: 1; /* Take up 1 part of the available space */
+    max-width: 25%; /* Ensure it doesn't exceed 25% of the width */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+    display: inline-block;
+    vertical-align: top;
+    height: 600px; /* Extend the height */
+    width: 25%; /* 1/4 of the width (1/3 scale with book preview) */
+    margin-right: 2%; /* Add spacing between library and book preview */
+    text-align: left; /* Align content to the left */
+}
+
+#library-container, #book-preview-container {
+    display: inline-block; /* Keep the two divs side by side */
+    vertical-align: top;
+}
+
+#book-list {
+    list-style: none;
+    padding: 0;
+}
+
+#book-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#book-list li:hover {
+    background-color: #f0f0f0;
+}
+
+#book-preview-container {
+    flex: 2; /* Take up 2 parts of the available space */
+    max-width: 66%; 
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    height: 600px; /* Extend the height */
+    width: 66%; /* 2/3 of the width (2/3 scale with library) */
+    text-align: left; /* Align content to the left */
+}
+
+#book-preview {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    background-color: #0b300b;
+    padding: 0px 20px;
+    padding-left: 0px;
+}
+
+.logo img {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icons/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <title>Personality Quiz</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class='nav-bar'>
+            <li class='logo'><a href='/'><img src='/icons/thegrowthcompass.png' alt="The Growth Compass Logo"/></a></li>
+            <span class="menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/products/index.html">Products</a></li>
+                <li><a href="/personality-types/index.html">Personality Types</a></li>
+                <li><a href="/about/index.html">About</a></li>
+                <li><a href="https://www.instagram.com/sergiubatrin__/" target="_blank">Contact</a></li>
+            </span>
+        </ul>
+      </nav>
+      <h1>Personality Test</h1>
+          <p>Find out your personality type!</p>
+      </header>
+
+      <main>
+        <section id="instructions">
+            <p>Click "Next" and choose the correct answer. You cannot go back to your previous answers. Take your time and answer honestly.</p>
+        </section>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <section id="quiz-container">
+            <!-- Questions will be dynamically inserted here -->
+        </section>
+        <div class="navigation">
+            <button id="next">Next</button>
+        </div>
+        <div id="result"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+What is the capital of France?
+3
+Berlin
+Madrid
+Paris
+2
+What is 2 + 2?
+2
+3
+4
+1
+What is the largest planet in our solar system?
+2
+Earth
+Jupiter
+1

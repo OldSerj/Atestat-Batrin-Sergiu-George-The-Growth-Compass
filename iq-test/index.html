@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/icons/favicon.ico"/>
+    <title>Dynamic Quiz</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='#'><img src='/icons/thegrowthcompass.png'/></a></li>
+                <span class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="/personality-types/index.html">Personality Types</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="https://www.instagram.com/sergiubatrin__/" target="_blank">Contact</a></li>
+                </span>
+            </ul>
+        </nav>
+        <h1>IQ Test</h1>
+        <p id="timestamp">Time: 0m 0s</p>
+    </header>
+
+    <main>
+        <section id="instructions">
+            <p>Click "Next" and choose the correct answer. You can review your answers, but you will be timed, and your time will influence your score.</p>
+        </section>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <section id="quiz-container">
+            <!-- Questions will be dynamically inserted here -->
+        </section>
+        <div class="navigation">
+            <button class="prev" id="prev" disabled>Previous</button>
+            <button id="next">Next</button>
+        </div>
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Growth Compass. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

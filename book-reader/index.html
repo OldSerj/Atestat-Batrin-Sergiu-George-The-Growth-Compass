@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icons/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <title>Book Reader</title>
+    <script src="/pdfjs/pdf.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='/'><img src='/icons/thegrowthcompass.png' alt="The Growth Compass Logo"/></a></li>
+                <span class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products/index.html">Products</a></li>
+                    <li><a href="/personality-types/index.html">Personality Types</a></li>
+                    <li><a href="/about/index.html">About</a></li>
+                    <li><a href="https://www.instagram.com/sergiubatrin__/" target="_blank">Contact</a></li>
+                </span>
+            </ul>
+        </nav>
+        <h1>Book Reader</h1>
+        <p>Browse and read your favorite books!</p>
+    </header>
+
+    <main>
+        <section id="instructions">
+            <p>Select a book from the library to preview it. Enjoy reading!</p>
+        </section>
+        <br>
+        <div id="library-container">
+            <h2>Library</h2>
+            <ul id="book-list">
+                <!-- The list will be dynamically populated by the script -->
+            </ul>
+        </div>
+        <div id="book-preview-container">
+            <div id="book-preview">
+                <iframe id="pdf-iframe" width="100%" height="600px" style="border: none;"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Growth Compass. All rights reserved.</p>
+    </footer>
+
+    <!-- Include locally served PDF.js -->
+    <script src="pdf.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
