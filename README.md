@@ -23,23 +23,39 @@ Acest site de dezvoltare personală poate ajuta utilizatorii să:
 Dezvoltarea acestui site nu doar că îmi permite să aplic cunoștințele de programare dobândite în liceu, dar are și un impact pozitiv asupra comunității, oferind o resursă accesibilă și utilă pentru cei care doresc să se autoîmbunătățească.
 ________________________________________
 Cerințe Soft-Hard
+
 🔹 Cerințe Hardware (minime):
+
 •	Procesor: Intel Celeron N4020 / AMD echivalent sau mai bun
+
 •	Memorie RAM: 4 GB (recomandat 8 GB pentru performanță mai bună)
+
 •	Spațiu de stocare: 10 GB (pentru instalarea tool-urilor de dezvoltare)
+
 •	Placă video: Intel UHD Graphics 600/610 sau AMD Radeon integrat
+
 🔹 Cerințe Software:
+
 •	Sistem de operare: Windows 10/11, macOS 10.15+, Linux (Ubuntu 20.04+)
+
 •	Browser web: Google Chrome (ultima versiune), Mozilla Firefox, Microsoft Edge sau Safari
+
 •	Editor de cod (opțional, pentru modificări): Visual Studio Code
+
 •	Python (mai ales http-server, pentru găzduirea unui server local) – versiunea 3.8+
 
 🔹 Tehnologii utilizate în proiect:
+
 •	Front-end: HTML5, CSS3, JavaScript
+
 •	Hosting (local, prin http-server): Python
+
 Avantajele folosirii acestui site:
+
 ✓ Conținut gratuit structurat pe niveluri (începător/avansat)
+
 ✓ Instrumente interactive (teste auto-evaluative, cărți)
+
 ✓ Accesibilitate 24/7 de pe orice dispozitiv
 
 ---
@@ -69,22 +85,36 @@ ________________________________________
 
 Software and Hardware Requirements
 🔹 Hardware Requirements (minimum):
+
 •    Processor: Intel Celeron N4020 / AMD equivalent or better
+
 •    RAM: 4 GB (8 GB recommended for better performance)
+
 •    Storage space: 10 GB (for installing development tools)
+
 •    Graphics card: Intel UHD Graphics 600/610 or integrated AMD Radeon
+
 🔹 Software Requirements:
+
 •    Operating system: Windows 10/11, macOS 10.15+, Linux (Ubuntu 20.04+)
+
 •    Web browser: Google Chrome (latest version), Mozilla Firefox, Microsoft Edge, or Safari
+
 •    Code editor (optional, for modifications): Visual Studio Code
+
 •    Python (especially http-server, for hosting a local server) – version 3.8+
 
 🔹 Technologies used in the project:
+
 •	Front-end: HTML5, CSS3, JavaScript
+
 •    Hosting (local, via http-server): Python
 Benefits of using this site:
+
 ✓ Free content organized by level (beginner/advanced)
+
 ✓ Interactive tools (self-assessment quizzes, books)
+
 ✓ 24/7 accessibility from any device
 
 
