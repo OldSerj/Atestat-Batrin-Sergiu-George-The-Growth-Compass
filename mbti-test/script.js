@@ -179,7 +179,7 @@ function displayResults() {
   else
     finalResult.JP = 'P';
   const yourType = finalResult.EI+finalResult.SN+finalResult.FT+finalResult.JP;
-  const path = "/personality-types/"+finalResult.EI+"/"+finalResult.SN+"/"+finalResult.FT+"/"+finalResult.JP+"/index.html";
+  const path = "../personality-types/"+finalResult.EI+"/"+finalResult.SN+"/"+finalResult.FT+"/"+finalResult.JP+"/index.html";
   const resultContainer = document.getElementById('result');
   resultContainer.innerHTML = `
       <h2>Result: <a href= ${path}>${yourType}</a></h2>
