@@ -32,7 +32,7 @@ let qnum = 0;
 
 // Load questions from text files
 async function loadQuestions() {
-  const db = ['db/EI.txt', 'db/SN.txt', 'db/FT.txt', 'db/JP.txt'];
+  const db = ['/mbti-test/db/EI.txt', '/mbti-test/db/SN.txt', '/mbti-test/db/FT.txt', '/mbti-test/db/JP.txt'];
   const categories = ['EI', 'SN', 'FT', 'JP'];
 
   for (let i = 0; i < db.length; i++) {
@@ -179,7 +179,7 @@ function displayResults() {
   else
     finalResult.JP = 'P';
   const yourType = finalResult.EI+finalResult.SN+finalResult.FT+finalResult.JP;
-  const path = "../personality-types/"+finalResult.EI+"/"+finalResult.SN+"/"+finalResult.FT+"/"+finalResult.JP+"/index.html";
+  const path = "/personality-types/"+finalResult.EI+"/"+finalResult.SN+"/"+finalResult.FT+"/"+finalResult.JP+"/index.html";
   const resultContainer = document.getElementById('result');
   resultContainer.innerHTML = `
       <h2>Result: <a href= ${path}>${yourType}</a></h2>
